@@ -1,5 +1,5 @@
 .MainNavigation__wrapper {
-  width: 100%;
+  flex: none;
 }
 
 .MainNavigation__wrapper .MainNavigation__container {

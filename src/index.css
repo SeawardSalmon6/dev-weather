@@ -6,13 +6,13 @@
 }
 
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
   background-color: var(--theme-bg-color-primary);
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--theme-text-primary);
-  border-radius: 8px;
+  border-radius: 6px;
 }
 
 html,
@@ -20,7 +20,8 @@ body {
   scroll-behavior: smooth;
   overflow-x: hidden;
   min-width: 320px;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
   font-family: "Source Sans Pro", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -39,8 +40,9 @@ body {
 }
 
 #root {
-  width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 ul,
